@@ -4,7 +4,7 @@ A production Telegram bot that lets users bulk transfer their YouTube channel su
 
 Built as a real, deployed product with paying users, integrating four external services (Telegram, Google/YouTube, Google OAuth2, and PayPal) behind a single Flask webhook backend backed by PostgreSQL.
 
-## Demo
+## Demo **(Click the thumbnail below)**
 
 [![Watch the demo](https://img.youtube.com/vi/3Wllk12kM7U/maxresdefault.jpg)](https://youtu.be/3Wllk12kM7U)
 
