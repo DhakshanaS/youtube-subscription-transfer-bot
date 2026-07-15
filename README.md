@@ -4,6 +4,12 @@ A production Telegram bot that lets users bulk transfer their YouTube channel su
 
 Built as a real, deployed product with paying users, integrating four external services (Telegram, Google/YouTube, Google OAuth2, and PayPal) behind a single Flask webhook backend backed by PostgreSQL.
 
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/3Wllk12kM7U/maxresdefault.jpg)](https://youtu.be/3Wllk12kM7U)
+
+A short walkthrough showing the full user flow: signing in with Google, uploading the subscriptions file, paying through PayPal, and the live subscription transfer running with progress updates.
+
 ## What it does
 
 Migrating hundreds of YouTube subscriptions to a new account by hand is slow and tedious. This bot automates the whole flow end to end:
