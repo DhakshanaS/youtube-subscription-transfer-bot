@@ -38,10 +38,10 @@ The app runs as a Flask web service that receives Telegram updates through a web
 
 ```
 Telegram  ->  Flask /webhook  ->  update queue  ->  async worker  ->  command handlers
-                                                                          |
-                        Google OAuth2  <----  /callback  <---------------- |
+                                                                           |
+                       Google OAuth2  <----  /callback  <----------------  |
                         PayPal         <----  /paypal_callback  <--------- |
-                        YouTube Data API  <---- subscription inserts  <---- |
+                        YouTube Data API  <---- subscription inserts  <----|
                         PostgreSQL  <----  state for every step  <-------- |
 ```
 
